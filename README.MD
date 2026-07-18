@@ -1,12 +1,19 @@
 # py-password-generator
 
 [](https://opensource.org/licenses/MIT)
+
 **Version:** 1.0
+
 **Last Updated:** 2026-07-18
+
 **Compatibility:** Python 3.14
+
 **Created By:** Ali Candan ([@webkolog](https://github.com/webkolog))
+
 **Website:** [http://webkolog.net](http://webkolog.net)
+
 **Copyright:** (c) 2026 Ali Candan
+
 **License:** MIT License ([http://mit-license.org](http://mit-license.org))
 
 **py-password-generator** is a simple, lightweight Python tool designed to generate secure, random alphanumeric passwords. It is perfect for developers who need a quick utility to create temporary passwords or unique keys.

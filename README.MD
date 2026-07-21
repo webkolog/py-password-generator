@@ -1,10 +1,10 @@
 # py-password-generator
 
-**Version:** 2.0
+**Version:** 2.1
 
 **Created Date:** 2026-07-18
 
-**Last Updated:** 2026-07-20
+**Last Updated:** 2026-07-21
 
 **Compatibility:** Python 3.14
 

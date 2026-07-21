@@ -1,5 +1,5 @@
-#v2.0
-import random, string
+#v2.1
+import secrets, string
 
 def generate_password():
     print("--- Secure Password Generator ---")
@@ -39,7 +39,7 @@ def generate_password():
         char_pool = string.ascii_letters + string.digits + string.punctuation
 
     # Generate the password
-    password = ''.join(random.choice(char_pool) for _ in range(length))
+    password = ''.join(secrets.choice(char_pool) for _ in range(length))
     
     # Print the result
     print("\n" + "="*30)
@@ -47,6 +47,15 @@ def generate_password():
     print(password)
     print("="*30)
 
-# Run the function
+def main():
+    while True:
+        generate_password()
+        
+        # The area to decide whether to create a new password
+        again = input("\nWould you like to generate another password? (y/n): ").strip().lower()
+        if again != 'y':
+            print("Goodbye!")
+            break
+
 if __name__ == "__main__":
-    generate_password()
+    main()
